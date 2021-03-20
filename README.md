@@ -1,2 +1,4 @@
 # Blackboard_Video_Downloader
-this Python script downloads vidoes from Blackboard.
+This Python script downloads vidoes from Blackboard.
+
+The script requires you to enter the link. However, the link has to be availabe for public.
