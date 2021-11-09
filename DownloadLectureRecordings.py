@@ -16,7 +16,7 @@ def gettingSourceCode():
 
     #this waits for the new page to load
     while(link == driver.current_url):
-        time.sleep(15)
+        time.sleep(8)
 
     # Writing the page source code into a file in the same directory.
     pageSource = driver.page_source
