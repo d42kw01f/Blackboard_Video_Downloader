@@ -11,3 +11,10 @@ After that the script requires you to enter the link. However, the link has to b
 ```
 Enter the link here: https://au.bbcollab.com/collab/ui/session/playback/load/f0344291e2a84c34ad2893a2fa281cd2?authToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYkNvbGxhYkFwaSIsInJlY29yZGluZ1VpZCI6ImYwMzQ0MjkxZTJhODRjMzRhZDI4OTNhMmZhMjgxY2QyIiwiaXNzIjoiYmJDb2xsYWJBcGkiLCJ0eXBlIjoxLCJleHAiOjE2MzY0Mjk3ODEsImlhdCI6MTYzNjQyOTQ4MSwiY29uc3VtZXIiOiIyNDgyZDQ1ZmRkZDU0ODIxYTQzOGY4OGIxMDlmMjIwNyJ9.d9P_P7PGz02xn4EEYK1zTFLnn_3GMssCFN79hYop7Fk
 ```
+then the python script will download the video
+```
+Presentation_Api_Yamu.mp4 : downloading...
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 80.1M/80.1M [01:19<00:00, 1.01MiB/s
+
+Download Finished!!!
+```
