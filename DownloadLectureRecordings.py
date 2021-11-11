@@ -31,7 +31,8 @@ def HTMLParsing():
 
     FinalVidUrl = soup.find("video").get("src")
 
-    print("\nVideo Dowloading URL :- \n{}".format(FinalVidUrl))
+    print('\n\nGood News I was able to find the link :)')
+    print("Video Dowloading URL :- \n{}".format(FinalVidUrl))
     return FinalVidUrl
 
 def DownloadingVideos(url):
@@ -40,7 +41,7 @@ def DownloadingVideos(url):
 
     r=requests.get(url, stream=True)
     total_size_in_bytes= int(r.headers.get('content-length', 0))
-    print('total',total_size_in_bytes)
+    print('total bytes to be download are: {}\n'.format(total_size_in_bytes))
     VidName = input('enter the name you want to use for the video: ')+".mp4"
 
     # Downloading the video
