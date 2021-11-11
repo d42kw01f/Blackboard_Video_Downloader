@@ -13,7 +13,7 @@ Enter the link here: https://au.bbcollab.com/collab/ui/session/playback/load/f03
 ```
 then the python script will download the video
 ```
-Presentation_Api_Yamu.mp4 : downloading...
+final_project_presentation.mp4 : downloading...
 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 80.1M/80.1M [01:19<00:00, 1.01MiB/s
 
 Download Finished!!!
