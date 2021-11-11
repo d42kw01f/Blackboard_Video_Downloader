@@ -55,8 +55,7 @@ def DownloadingVideos(url):
 if __name__ == "__main__":
     gettingSourceCode()
     try:
-        # TheUrl = HTMLParsing()
-        TheUrl = 'https://ultra-au-prod-sms.collab.cloudflare.blackboardcdn.com/content/1015ec57-14d6-5c1f-9627-06223b1e3c1a/21/10/23/08/1015ec57-14d6-5c1f-9627-06223b1e3c1a_1_211023T082617868Z.mp4?X-Blackboard-Expiration=1636472155091&X-Blackboard-Signature=pW1khwYD%2BmHygAVpKD1ETgYC0JUpDw57Tua3VmXjcWc%3D&X-Blackboard-Client-Id=void&Expires=1636472155&Signature=TQwp7nQZfuMNCQEgfeoFm78~U3kK2gZOJYWtJ1O-D-gUrz5qDh4-GCZQEGTmbRNZGEdk~de1~xXKpl6Os0IwStyZXRp2kjbAh8nIH2Od4BKCc5NG5UidDZORAs8Y1iPSVEb2AS1Cn3C9ia118VchYxQFJ3yBKrhJNwmtM04vxVyjP5YbX83SMauFsqkYSTs3zNksLY9b1yZXUMm1K3n0jfmOOiS1uhTfWTko07xi4~FCoAdLGlu3cXhh0EY1gLWSAM7i9CVZqJJ1BJF1Vh1Pk98KUBuYPxK3daJtcQ02JC1mkUANt0YDRQysUGIGo3xQ8MdStPL8Ba2GbE5zK26iyQ__&Key-Pair-Id=APKAIOBDBIMXUOQOBYVA'
+        TheUrl = HTMLParsing()
     except:
         print('SOMETHING WENT WRONG: I think you entered the url wrongly!!!')
         print('It should be like this: https://au.bbcollab.com/collab/ui/session/playback/load/...')
