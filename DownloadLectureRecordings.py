@@ -41,7 +41,7 @@ def DownloadingVideos(url):
 
     r=requests.get(url, stream=True)
     total_size_in_bytes= int(r.headers.get('content-length', 0))
-    print('total bytes to be download are: {}\n'.format(total_size_in_bytes))
+    print('total bytes in the video are: {}\n'.format(total_size_in_bytes))
     VidName = input('enter the name you want to use for the video: ')+".mp4"
 
     # Downloading the video
